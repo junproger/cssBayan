@@ -85,3 +85,30 @@ a {
   justify-content: space-between;
   align-items: flex-start;
 }
+
+.plus-icon {
+  background-image: url("./assets/plus_icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  visibility: visible;
+}
+
+.image-meme1 {
+  background-image: url("./assets/cantjust.png");
+}
+
+.image-meme2 {
+  background-image: url("./assets/keepcalm.png");
+}
+
+.image-meme3 {
+  background-image: url("./assets/worklife.png");
+}
+
+.image-meme4 {
+  background-image: url("./assets/whereisjs.png");
+}
+
+.image-meme5 {
+  background-image: url("./assets/relaxeasy.png");
+}
