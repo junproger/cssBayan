@@ -91,6 +91,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   visibility: visible;
+	opacity: 1;
   -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
 }
@@ -434,6 +435,70 @@ a {
     background-size: auto calc(100% - 8rem);
     height: 60rem;
     color: black;
+  }
+
+}
+
+/** hover effects when it supported **/
+@media screen and (hover: hover) {
+  .plus-icon {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+  }
+
+  .container:hover,
+  .cssbayan:hover,
+  label:hover {
+    cursor: pointer;
+  }
+
+  .container:hover .cssbayan {
+    color: black;
+  }
+
+  .container:hover .plus-icon,
+  label:hover .plus-icon {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .cssbayan__item:hover {
+    background-size: auto calc(100% - 5rem);
+    height: 20rem;
+  }
+
+}
+
+@media screen and (hover: hover) and (min-width: 321px) {
+  .cssbayan__item:hover {
+    background-size: auto calc(100% - 6rem);
+    height: 25rem;
+  }
+
+}
+
+@media screen and (hover: hover) and (min-width: 561px) {
+  .cssbayan__item:hover {
+    background-size: auto calc(100% - 6rem);
+    height: 30rem;
+  }
+
+}
+
+@media screen and (hover: hover) and (min-width: 821px) {
+  .cssbayan__item:hover {
+    background-size: auto calc(100% - 7rem);
+    height: 40rem;
+  }
+
+}
+
+@media screen and (hover: hover) and (min-width: 1921px) {
+  .cssbayan__item:hover {
+    background-size: auto calc(100% - 8rem);
+    height: 60rem;
   }
 
 }
