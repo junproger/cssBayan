@@ -91,6 +91,8 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   visibility: visible;
+  -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
 }
 
 .image-meme1 {
@@ -111,4 +113,13 @@ a {
 
 .image-meme5 {
   background-image: url("./assets/relaxeasy.png");
+}
+
+#radio-check1:checked ~ .image-meme1 .plus-icon,
+#radio-check2:checked ~ .image-meme2 .plus-icon,
+#radio-check3:checked ~ .image-meme3 .plus-icon,
+#radio-check4:checked ~ .image-meme4 .plus-icon,
+#radio-check5:checked ~ .image-meme5 .plus-icon {
+  -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
 }
