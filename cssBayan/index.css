@@ -94,6 +94,8 @@ a {
 	opacity: 1;
   -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
+	-webkit-transition: transform 0.5s, visibility 0.5s, opacity 0.5s ease;
+      transition: transform 0.5s, visibility 0.5s, opacity 0.5s ease;
 }
 
 .image-meme1 {
@@ -123,6 +125,8 @@ a {
 #radio-check5:checked ~ .image-meme5 .plus-icon {
   -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
+	-webkit-transition: transform 0.5s, visibility 0.5s, opacity 0.5s ease;
+      transition: transform 0.5s, visibility 0.5s, opacity 0.5s ease;
 }
 
 @media screen and (max-width: 320px) {
@@ -446,6 +450,8 @@ a {
     opacity: 0;
     -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
+		-webkit-transition: transform 0.5s, visibility 0.5s, opacity 0.5s ease;
+        transition: transform 0.5s, visibility 0.5s, opacity 0.5s ease;
   }
 
   .container:hover,
@@ -462,6 +468,8 @@ a {
   label:hover .plus-icon {
     visibility: visible;
     opacity: 1;
+    -webkit-transition: transform 0.5s, visibility 0.5s, opacity 0.5s ease;
+        transition: transform 0.5s, visibility 0.5s, opacity 0.5s ease;
   }
 
   .cssbayan__item:hover {
@@ -512,6 +520,8 @@ a {
   label:active .plus-icon {
     -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
+		-webkit-transition: transform 0.5s, visibility 0.5s, opacity 0.5s ease;
+        transition: transform 0.5s, visibility 0.5s, opacity 0.5s ease;
   }
 
 }
