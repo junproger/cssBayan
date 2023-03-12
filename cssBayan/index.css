@@ -374,3 +374,66 @@ a {
   }
 
 }
+
+@media screen and (min-width: 1921px) {
+  .body {
+    font-weight: 900;
+    font-size: 2rem;
+  }
+
+  .container,
+  .cssbayan {
+    max-width: 100rem;
+  }
+
+  .header,
+  .footer {
+    max-width: 100rem;
+    height: 5rem;
+    max-height: 5rem;
+  }
+
+  .header__title,
+  .footer__title {
+    padding: 1rem 2rem;
+    line-height: 3rem;
+    font-size: 3rem;
+  }
+
+  .cssbayan__item {
+    max-width: 100rem;
+    height: 4rem;
+    max-height: 60rem;
+  }
+
+  .cssbayan__item_label {
+    max-width: 100rem;
+    height: 60rem;
+    max-height: 60rem;
+  }
+
+  .cssbayan__item_text {
+    margin-left: 2rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    letter-spacing: calc(0.125rem / 100);
+  }
+  
+  .cssbayan__item_icon {
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    background-size: 3rem 3rem;
+  }
+
+  #radio-check1:checked ~ .image-meme1,
+  #radio-check2:checked ~ .image-meme2,
+  #radio-check3:checked ~ .image-meme3,
+  #radio-check4:checked ~ .image-meme4,
+  #radio-check5:checked ~ .image-meme5 {
+    background-size: auto calc(100% - 8rem);
+    height: 60rem;
+    color: black;
+  }
+
+}
