@@ -15,3 +15,73 @@ main {
 	-o-box-sizing: inherit;
 	box-sizing: inherit;
 }
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+input[type="radio"] {
+  margin: 0;
+  all: unset;
+  visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: darkslategrey;
+}
+
+.body {
+	scroll-behavior: smooth;
+	font-family: "Roboto", sans-serif;
+  font-style: normal;
+	color: black;
+	margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+	background-color: lightgrey;
+  margin: 0 auto;
+}
+
+.header,
+.footer {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  color: black;
+}
+
+.footer {
+  border-top: 0.1rem solid silver;
+}
+
+.footer__title {
+  text-align: right;
+}
+
+.cssbayan {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  color: blue;
+}
+
+.cssbayan__item {
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid silver;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0%;
+}
+
+.cssbayan__item_label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
