@@ -123,3 +123,65 @@ a {
   -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
 }
+
+@media screen and (max-width: 320px) {
+  .body {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .container,
+  .cssbayan {
+    max-width: 30rem;
+  }
+
+  .header,
+  .footer {
+    max-width: 30rem;
+    max-height: 2.75rem;
+  }
+
+  .header__title,
+  .footer__title {
+    padding: 0.5rem 0.5rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  .cssbayan__item {
+    max-width: 30rem;
+    height: 2.5rem;
+    max-height: 20rem;
+  }
+
+  .cssbayan__item_label {
+    max-width: 30rem;
+    height: 20rem;
+    max-height: 20rem;
+  }
+
+  .cssbayan__item_text {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    letter-spacing: calc(0.125rem / 100);
+  }
+  
+  .cssbayan__item_icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-size: 1.5rem 1.5rem;
+  }
+
+  #radio-check1:checked ~ .image-meme1,
+  #radio-check2:checked ~ .image-meme2,
+  #radio-check3:checked ~ .image-meme3,
+  #radio-check4:checked ~ .image-meme4,
+  #radio-check5:checked ~ .image-meme5 {
+    background-size: auto calc(100% - 5rem);
+    height: 20rem;
+    color: black;
+  }
+
+}
