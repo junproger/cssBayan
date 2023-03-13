@@ -74,7 +74,7 @@ a {
   width: 100%;
 	height: auto;
   overflow: hidden;
-  border-top: 1px solid silver;
+  border-top: 0.063rem solid silver;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 0;
@@ -90,7 +90,7 @@ a {
 }
 
 .plus-icon {
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg height='32px' id='Layer_1' style='enable-background:new 0 0 32 32%3B' version='1.1' viewBox='0 0 32 32' width='32px' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath d='M28 14H18V4c0-1.104-0.896-2-2-2s-2 0.896-2 2v10H4c-1.104 0-2 0.896-2 2s0.896 2 2 2h10v10c0 1.104 0.896 2 2 2 s2-0.896 2-2V18h10c1.104 0 2-0.896 2-2S29.104 14 28 14z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg height='2rem' id='Layer_1' style='enable-background:new 0 0 32 32%3B' version='1.1' viewBox='0 0 32 32' width='2rem' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath d='M28 14H18V4c0-1.104-0.896-2-2-2s-2 0.896-2 2v10H4c-1.104 0-2 0.896-2 2s0.896 2 2 2h10v10c0 1.104 0.896 2 2 2 s2-0.896 2-2V18h10c1.104 0 2-0.896 2-2S29.104 14 28 14z'/%3E%3C/svg%3E");
   background-position: center;
   background-repeat: no-repeat;
   visibility: visible;
@@ -562,7 +562,7 @@ a {
   }
 
   label:active .plus-icon {
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg height='32px' id='Layer_1' style='enable-background:new 0 0 32 32%3B' version='1.1' viewBox='0 0 32 32' width='32px' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath fill='blue' d='M28 14H18V4c0-1.104-0.896-2-2-2s-2 0.896-2 2v10H4c-1.104 0-2 0.896-2 2s0.896 2 2 2h10v10c0 1.104 0.896 2 2 2 s2-0.896 2-2V18h10c1.104 0 2-0.896 2-2S29.104 14 28 14z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg height='2rem' id='Layer_1' style='enable-background:new 0 0 32 32%3B' version='1.1' viewBox='0 0 32 32' width='2rem' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath fill='blue' d='M28 14H18V4c0-1.104-0.896-2-2-2s-2 0.896-2 2v10H4c-1.104 0-2 0.896-2 2s0.896 2 2 2h10v10c0 1.104 0.896 2 2 2 s2-0.896 2-2V18h10c1.104 0 2-0.896 2-2S29.104 14 28 14z'/%3E%3C/svg%3E");
   }
 }
 
