@@ -526,7 +526,7 @@ a {
   #radio-check4:checked ~ .image-meme4,
   #radio-check5:checked ~ .image-meme5 {
     height: 70rem;
-    background-size: auto calc(100% - 9rem);
+    background-size: auto calc(100% - 10rem);
     color: black;
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
@@ -621,7 +621,7 @@ a {
 @media screen and (hover: hover) and (min-width: 1921px) {
   .cssbayan__item:hover {
     height: 70rem;
-    background-size: auto calc(100% - 9rem);
+    background-size: auto calc(100% - 10rem);
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
   }
