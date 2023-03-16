@@ -74,7 +74,7 @@ a {
   width: 100%;
 	height: auto;
   overflow: hidden;
-  border-top: 0.063rem solid silver;
+  border-top: 0.1rem solid silver;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 0;
@@ -146,20 +146,20 @@ a {
   .header,
   .footer {
     max-width: 30rem;
-    max-height: 2.75rem;
+    max-height: 3.5rem;
   }
 
   .header__title,
   .footer__title {
     padding: 0.5rem 0.5rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
     font-size: 1.5rem;
   }
 
   .cssbayan__item {
     max-width: 30rem;
-    height: 2.5rem;
-    max-height: 20rem;
+    height: 2.25rem;
+    max-height: 20.5rem;
 		background-size: auto 0;
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
@@ -167,21 +167,21 @@ a {
 
   .cssbayan__item_label {
     max-width: 30rem;
-    height: 20rem;
-    max-height: 20rem;
+    height: 20.5rem;
+    max-height: 20.5rem;
   }
 
   .cssbayan__item_text {
     margin-left: 0.5rem;
     font-size: 1rem;
-    line-height: 2.5rem;
+    line-height: 2.25rem;
     letter-spacing: calc(0.125rem / 100);
   }
   
   .cssbayan__item_icon {
-    width: 2.5rem;
-    height: 2.5rem;
-    line-height: 2.5rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
     background-size: 1.5rem 1.5rem;
   }
 
@@ -190,7 +190,7 @@ a {
   #radio-check3:checked ~ .image-meme3,
   #radio-check4:checked ~ .image-meme4,
   #radio-check5:checked ~ .image-meme5 {
-    height: 20rem;
+    height: 20.5rem;
     background-size: auto calc(100% - 5rem);
     color: black;
 		-webkit-transition: height 0.5s, background-size 1s ease;
@@ -207,49 +207,48 @@ a {
 
   .container,
   .cssbayan {
-    max-width: 30rem;
+    max-width: 35rem;
   }
 
   .header,
   .footer {
-    max-width: 30rem;
-    height: 3rem;
-    max-height: 3rem;
+    max-width: 35rem;
+    max-height: 4.5rem;
   }
 
   .header__title,
   .footer__title {
-    padding: 0.5rem 1rem;
-    line-height: 2rem;
-    font-size: 2rem;
+    padding: 0.75rem 1rem;
+    line-height: 2.25rem;
+    font-size: 1.75rem;
   }
 
   .cssbayan__item {
-    max-width: 30rem;
-    height: 2.5rem;
-    max-height: 25rem;
+    max-width: 35rem;
+    height: 3rem;
+    max-height: 27.5rem;
 		background-size: auto 0;
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
   }
 
   .cssbayan__item_label {
-    max-width: 30rem;
-    height: 25rem;
-    max-height: 25rem;
+    max-width: 35rem;
+    height: 27.5rem;
+    max-height: 27.5rem;
   }
 
   .cssbayan__item_text {
     margin-left: 1rem;
     font-size: 1.25rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
     letter-spacing: calc(0.125rem / 100);
   }
   
   .cssbayan__item_icon {
-    width: 2.5rem;
-    height: 2.5rem;
-    line-height: 2.5rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
     background-size: 2rem 2rem;
   }
 
@@ -258,7 +257,7 @@ a {
   #radio-check3:checked ~ .image-meme3,
   #radio-check4:checked ~ .image-meme4,
   #radio-check5:checked ~ .image-meme5 {
-    height: 25rem;
+    height: 27.5rem;
     background-size: auto calc(100% - 6rem);
     color: black;
 		-webkit-transition: height 0.5s, background-size 1s ease;
@@ -275,50 +274,49 @@ a {
 
   .container,
   .cssbayan {
-    max-width: 40rem;
+    max-width: 51.25rem;
   }
 
   .header,
   .footer {
-    max-width: 40rem;
-    height: 3.5rem;
-    max-height: 3.5rem;
+    max-width: 51.25rem;
+    max-height: 5.5rem;
   }
 
   .header__title,
   .footer__title {
-    padding: 0.5rem 1.25rem;
-    line-height: 2.5rem;
+    padding: 1rem 1.5rem;
+    line-height: 2.75rem;
     font-size: 2.25rem;
   }
 
   .cssbayan__item {
-    max-width: 40rem;
-    height: 2.5rem;
-    max-height: 30rem;
+    max-width: 51.25rem;
+    height: 3.75rem;
+    max-height: 40rem;
 		background-size: auto 0;
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
   }
 
   .cssbayan__item_label {
-    max-width: 40rem;
-    height: 30rem;
-    max-height: 30rem;
+    max-width: 51.25rem;
+    height: 40rem;
+    max-height: 40rem;
   }
 
   .cssbayan__item_text {
-    margin-left: 1.25rem;
+    margin-left: 1.5rem;
     font-size: 1.5rem;
-    line-height: 2.5rem;
+    line-height: 3.75rem;
     letter-spacing: calc(0.125rem / 100);
   }
   
   .cssbayan__item_icon {
-    width: 2.5rem;
-    height: 2.5rem;
-    line-height: 2.5rem;
-    background-size: 2rem 2rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    line-height: 3.75rem;
+    background-size: 2.25rem 2.25rem;
   }
 
   #radio-check1:checked ~ .image-meme1,
@@ -326,7 +324,7 @@ a {
   #radio-check3:checked ~ .image-meme3,
   #radio-check4:checked ~ .image-meme4,
   #radio-check5:checked ~ .image-meme5 {
-    height: 30rem;
+    height: 40rem;
     background-size: auto calc(100% - 6rem);
     color: black;
 		-webkit-transition: height 0.5s, background-size 1s ease;
@@ -335,7 +333,7 @@ a {
 
 }
 
-@media screen and (min-width: 821px) and (max-width: 1920px) {
+@media screen and (min-width: 821px) and (max-width: 1400px) {
   .body {
     font-weight: 700;
     font-size: 1.75rem;
@@ -343,49 +341,48 @@ a {
 
   .container,
   .cssbayan {
-    max-width: 60rem;
+    max-width: 65rem;
   }
 
   .header,
   .footer {
-    max-width: 60rem;
-    height: 4rem;
-    max-height: 4rem;
+    max-width: 65rem;
+    max-height: 6.5rem;
   }
 
   .header__title,
   .footer__title {
-    padding: 0.75rem 1.5rem;
-    line-height: 2.5rem;
+    padding: 1.25rem 1.5rem;
+    line-height: 3rem;
     font-size: 2.5rem;
   }
 
   .cssbayan__item {
-    max-width: 60rem;
-    height: 3rem;
-    max-height: 40rem;
+    max-width: 65rem;
+    height: 4rem;
+    max-height: 50rem;
 		background-size: auto 0;
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
   }
 
   .cssbayan__item_label {
-    max-width: 60rem;
-    height: 40rem;
-    max-height: 40rem;
+    max-width: 65rem;
+    height: 50rem;
+    max-height: 50rem;
   }
 
   .cssbayan__item_text {
     margin-left: 1.5rem;
-    font-size: 1.75rem;
-    line-height: 3rem;
+    font-size: 2rem;
+    line-height: 4rem;
     letter-spacing: calc(0.125rem / 100);
   }
   
   .cssbayan__item_icon {
-    width: 3rem;
-    height: 3rem;
-    line-height: 3rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
     background-size: 2.5rem 2.5rem;
   }
 
@@ -394,8 +391,75 @@ a {
   #radio-check3:checked ~ .image-meme3,
   #radio-check4:checked ~ .image-meme4,
   #radio-check5:checked ~ .image-meme5 {
-    height: 40rem;
+    height: 50rem;
     background-size: auto calc(100% - 7rem);
+    color: black;
+		-webkit-transition: height 0.5s, background-size 1s ease;
+				transition: height 0.5s, background-size 1s ease;
+  }
+
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1920px) {
+  .body {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .container,
+  .cssbayan {
+    max-width: 80rem;
+  }
+
+  .header,
+  .footer {
+    max-width: 80rem;
+    max-height: 7.5rem;
+  }
+
+  .header__title,
+  .footer__title {
+    padding: 1.25rem 1.5rem;
+    line-height: 4rem;
+    font-size: 3rem;
+  }
+
+  .cssbayan__item {
+    max-width: 80rem;
+    height: 5rem;
+    max-height: 60rem;
+		background-size: auto 0;
+		-webkit-transition: height 0.5s, background-size 1s ease;
+				transition: height 0.5s, background-size 1s ease;
+  }
+
+  .cssbayan__item_label {
+    max-width: 80rem;
+    height: 60rem;
+    max-height: 60rem;
+  }
+
+  .cssbayan__item_text {
+    margin-left: 1.5rem;
+    font-size: 2.25rem;
+    line-height: 5rem;
+    letter-spacing: calc(0.125rem / 100);
+  }
+  
+  .cssbayan__item_icon {
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    background-size: 2.5rem 2.5rem;
+  }
+
+  #radio-check1:checked ~ .image-meme1,
+  #radio-check2:checked ~ .image-meme2,
+  #radio-check3:checked ~ .image-meme3,
+  #radio-check4:checked ~ .image-meme4,
+  #radio-check5:checked ~ .image-meme5 {
+    height: 60rem;
+    background-size: auto calc(100% - 8rem);
     color: black;
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
@@ -406,7 +470,7 @@ a {
 @media screen and (min-width: 1921px) {
   .body {
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 
   .container,
@@ -417,21 +481,20 @@ a {
   .header,
   .footer {
     max-width: 100rem;
-    height: 5rem;
-    max-height: 5rem;
+    max-height: 8.5rem;
   }
 
   .header__title,
   .footer__title {
-    padding: 1rem 2rem;
-    line-height: 3rem;
-    font-size: 3rem;
+    padding: 1.75rem 2rem;
+    line-height: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .cssbayan__item {
     max-width: 100rem;
-    height: 4rem;
-    max-height: 60rem;
+    height: 6rem;
+    max-height: 70rem;
 		background-size: auto 0;
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
@@ -439,21 +502,21 @@ a {
 
   .cssbayan__item_label {
     max-width: 100rem;
-    height: 60rem;
-    max-height: 60rem;
+    height: 70rem;
+    max-height: 70rem;
   }
 
   .cssbayan__item_text {
     margin-left: 2rem;
-    font-size: 2rem;
-    line-height: 4rem;
+    font-size: 2.75rem;
+    line-height: 6rem;
     letter-spacing: calc(0.125rem / 100);
   }
   
   .cssbayan__item_icon {
-    width: 4rem;
-    height: 4rem;
-    line-height: 4rem;
+    width: 6rem;
+    height: 6rem;
+    line-height: 6rem;
     background-size: 3rem 3rem;
   }
 
@@ -462,8 +525,8 @@ a {
   #radio-check3:checked ~ .image-meme3,
   #radio-check4:checked ~ .image-meme4,
   #radio-check5:checked ~ .image-meme5 {
-    height: 60rem;
-    background-size: auto calc(100% - 8rem);
+    height: 70rem;
+    background-size: auto calc(100% - 9rem);
     color: black;
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
@@ -507,7 +570,7 @@ a {
   }
 
   .cssbayan__item:hover {
-    height: 20rem;
+    height: 20.5rem;
     background-size: auto calc(100% - 5rem);
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
@@ -517,7 +580,7 @@ a {
 
 @media screen and (hover: hover) and (min-width: 321px) {
   .cssbayan__item:hover {
-    height: 25rem;
+    height: 27.5rem;
     background-size: auto calc(100% - 6rem);
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
@@ -527,7 +590,7 @@ a {
 
 @media screen and (hover: hover) and (min-width: 561px) {
   .cssbayan__item:hover {
-    height: 30rem;
+    height: 40rem;
     background-size: auto calc(100% - 6rem);
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
@@ -537,8 +600,18 @@ a {
 
 @media screen and (hover: hover) and (min-width: 821px) {
   .cssbayan__item:hover {
-    height: 40rem;
+    height: 50rem;
     background-size: auto calc(100% - 7rem);
+		-webkit-transition: height 0.5s, background-size 1s ease;
+				transition: height 0.5s, background-size 1s ease;
+  }
+
+}
+
+@media screen and (hover: hover) and (min-width: 1401px) {
+  .cssbayan__item:hover {
+    height: 60rem;
+    background-size: auto calc(100% - 8rem);
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
   }
@@ -547,8 +620,8 @@ a {
 
 @media screen and (hover: hover) and (min-width: 1921px) {
   .cssbayan__item:hover {
-    height: 60rem;
-    background-size: auto calc(100% - 8rem);
+    height: 70rem;
+    background-size: auto calc(100% - 9rem);
 		-webkit-transition: height 0.5s, background-size 1s ease;
 				transition: height 0.5s, background-size 1s ease;
   }
